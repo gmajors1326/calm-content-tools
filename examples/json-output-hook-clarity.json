@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "persona": "langston_l_model",
+  "version": "1.0.0",
+  "confidence": 0.92,
+  "output": {
+    "tool_name": "Hook Clarity Analyzer",
+    "intent": "Evaluate a hook for clarity and alignment with audience",
+    "results": {
+      "clarityRating": "clear",
+      "works": "The hook clearly identifies the target audience and the language is direct.",
+      "unclear": "CTA could be stronger to guide next steps.",
+      "calmSuggestion": "Add a concise CTA that aligns with the hook's goal."
+    }
+  },
+  "notes": [
+    "Output formatted to JSON; tone is neutral and instructional.",
+    "No promotional language."
+  ],
+  "warnings": [],
+  "errors": []
+}
