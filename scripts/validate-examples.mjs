@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join, resolve } from 'path';
 import { fileURLToPath } from 'url';
-import Ajv from 'ajv';
+import AjvModule from 'ajv';
 
 const __dirname = pathDir(import.meta.url);
 function pathDir(url) {
@@ -23,10 +23,11 @@ try {
   process.exit(2);
 }
 
-const AjvInstance = Ajv({ strict: false, allErrors: true });
+const Ajv = AjvModule.default || AjvModule;
+const ajv = new Ajv({ strict: false, allErrors: true });
 let validate;
 try {
-  validate = AjvInstance.compile(schema);
+  validate = ajv.compile(schema);
 } catch (e) {
   console.error('Schema compilation failed', e?.message ?? e);
   process.exit(3);

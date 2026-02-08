@@ -13,7 +13,7 @@
       "type": "string",
       "const": "langston_l_model"
     },
-    "version": { "type": "string" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
     "confidence": {
       "type": "number",
       "minimum": 0,
