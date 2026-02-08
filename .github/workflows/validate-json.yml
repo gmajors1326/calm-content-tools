@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install dependencies (fallback to npm install if no lockfile)
+      - name: Install dependencies
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm install; fi
       - name: Run JSON validation
