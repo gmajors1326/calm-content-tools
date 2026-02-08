@@ -1,0 +1,12 @@
+Scaffold Added (v1 foundation)
+- Minimal production-ready Next.js App Router scaffold with TypeScript, Tailwind, and shadcn/ui-inspired UI primitives.
+- Branch: feat/nextjs-scaffold-calm
+- New folders: app/, lib/
+- Core pages: app/page.tsx, app/tools/page.tsx, app/tools/[slug]/page.tsx
+- Global styles: app/globals.css with calm theme tokens
+- Tailwind: tailwind.config.js, postcss.config.js
+- Next.js config: next.config.js
+- TypeScript: tsconfig.json
+- Tool registry: lib/tools.ts with 5 static tools
+- Static UI primitives: app/components/ui/{Button,Card,Input,Textarea}.tsx
+- Validation suite remains intact: scripts/validate-examples.mjs continues to validate examples against schemas/langston-output.schema.json
