@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  // Enable App Router
-  experimental: {
-    appDir: true
-  }
-};
+  swcMinify: true
+}
 module.exports = nextConfig;
