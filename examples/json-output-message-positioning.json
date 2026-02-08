@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "persona": "langston_l_model",
+  "version": "1.0.0",
+  "confidence": 0.93,
+  "output": {
+    "tool_name": "Message Positioning Builder",
+    "intent": "Clarify what you’re about and how you help",
+    "results": {
+      "positioning_sentence": "We help professionals communicate clearly what they stand for and who they serve.",
+      "bio_style_version": "Bio: We help professionals communicate clearly what they stand for and who they serve.",
+      "gentle_reassurance": "This framing invites trust without pressure."
+    }
+  },
+  "notes": [
+    "Output is calm, direct, and domain-aligned.",
+    "No marketing hype."
+  ],
+  "warnings": [],
+  "errors": []
+}

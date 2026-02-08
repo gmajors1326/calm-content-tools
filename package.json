@@ -1,0 +1,13 @@
+{
+  "name": "calm-content-tools-ci",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:json": "node scripts/validate-examples.mjs",
+    "ci": "npm run validate:json"
+  },
+  "devDependencies": {
+    "ajv": "^8.12.0"
+  }
+}

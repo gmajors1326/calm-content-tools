@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "persona": "langston_l_model",
+  "version": "1.0.0",
+  "confidence": 0.92,
+  "output": {
+    "tool_name": "Weekly Content Reflection",
+    "intent": "Reflect on what was posted and plan a gentle next step",
+    "results": {
+      "summary": "A calm week of posts with steady engagement.",
+      "win": "Successfully maintained a consistent posting rhythm.",
+      "next_step": "Continue with consistency; adjust topics based on audience resonance."
+    }
+  },
+  "notes": [
+    "Reflection is supportive and non-pressuring."
+  ],
+  "warnings": [],
+  "errors": []
+}

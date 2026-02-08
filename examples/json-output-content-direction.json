@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "persona": "langston_l_model",
+  "version": "1.0.0",
+  "confidence": 0.91,
+  "output": {
+    "tool_name": "Content Direction Planner",
+    "intent": "Provide calm content directions for the week",
+    "results": {
+      "ideas": [
+        {"id": "cd_01", "idea": "Share a weekly theme focused on small, consistent steps."},
+        {"id": "cd_02", "idea": "Highlight a behind-the-scenes moment to build trust."},
+        {"id": "cd_03", "idea": "Create a simple checklist post to invite engagement."}
+      ],
+      "notes": ["Calm language", "Consistency over volume"]
+    }
+  },
+  "notes": [
+    "Output emphasizes focus and sustainability.",
+    "No pressure language."
+  ],
+  "warnings": [],
+  "errors": []
+}
