@@ -1,7 +1,7 @@
 import React from 'react'
 import { getToolBySlug } from '../../../lib/tools'
-import { Card } from '../../../components/ui/card'
-import { Button } from '../../../components/ui/button'
+import { Card } from '../../components/ui/card'
+import { Button } from '../../components/ui/button'
 
 export default function ToolPage({ params }: { params: { slug: string } }) {
   const tool = getToolBySlug(params.slug)
